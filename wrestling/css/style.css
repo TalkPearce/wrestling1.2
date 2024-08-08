@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: auto%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+li:last-child {
+  border-right: none;
+} 
+
+.active {
+  background-color: #04AA6D;
+}
+
+  /* Add a gray right border to all list items, except the last item (last-child) */
+/*li {
+  
+}
+
+*/  
+
+  /* ul {
+  
+} 
+
+*/
+div.hcontainer {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+div.container {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img.hero {
+	width: 60rem;
+	height: 40rem;
+}
+
+body {
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+img.belts {
+	width: 40rem;
+	height: 30rem;
+}
+
+
+/* p {
+	background-color: #c8c8c8;
+	background-color: hsl(0.5),;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+*/
+p {
+	background-color: #f50505;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 4px;
+    font-family: raleway;
+    line-height: 1.5rem;
+    padding: 20px;
+    letter-spacing: 0.115rem;
+}
+
+h1 {
+	font-size: 12rem;
+	font-family: whisper;
+	text-align: center;
+	color: #d90909;
+	font-weight: 80px;
+}
+
+h2 {
+	font-size: 4rem;
+	font-family: raleway;
+	text-align: left;
+	margin-left: 19.5rem;
+	margin-right: auto;
+	color: #C16236;
+}
+
+h3 {
+	background-color: #4398bf;
+	font-size: 2rem;
+	font-family: raleway;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	color: #573C3C;
+	padding: 20px;
+	border-radius: 4px;
+	width: 55%;
+}
